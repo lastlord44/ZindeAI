@@ -1,0 +1,37 @@
+name: zindeai
+description: Türk mutfağına özel akıllı beslenme planlama sistemi. LLM + algoritma, Groq entegrasyonu.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Camera and Image Processing
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  
+  # Network
+  http: ^1.2.1
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.6.0
+  firebase_remote_config: ^4.3.8
+  
+  # Material Design
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

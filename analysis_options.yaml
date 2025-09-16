@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional rules can be added here for stricter linting
+linter:
+  rules:
+    # Prefer const constructors
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    
+    # Naming conventions
+    camel_case_types: true
+    file_names: true
+    
+    # Documentation
+    public_member_api_docs: false
+    
+    # Style
+    sort_child_properties_last: true
+    use_key_in_widget_constructors: true
